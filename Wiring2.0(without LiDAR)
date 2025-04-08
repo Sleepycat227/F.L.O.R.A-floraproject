@@ -1,0 +1,35 @@
++---------------------------+----------------------------+
+| FROM                     | TO                         |
++---------------------------+----------------------------+
+| Raspberry Pi GPIO 3      | ADS1115 SDA                |
+| Raspberry Pi GPIO 5      | ADS1115 SCL                |
+| Raspberry Pi 3.3V        | ADS1115 VCC                |
+| Raspberry Pi GND         | ADS1115 GND                |
+| ADS1115 A0               | Soil Moisture Sensor OUT   |
+| ADS1115 A1               | LDR Sensor OUT             |
+| ADS1115 A2               | LM35 Temperature OUT       |
+| Raspberry Pi GPIO 10     | SPI LCD MOSI (DIN)         |
+| Raspberry Pi GPIO 11     | SPI LCD SCK (CLK)          |
+| Raspberry Pi GPIO 8      | SPI LCD CS                 |
+| Raspberry Pi GPIO 25     | SPI LCD DC                 |
+| Raspberry Pi GPIO 24     | SPI LCD RST                |
+| Raspberry Pi 3.3V        | SPI LCD VCC                |
+| Raspberry Pi GND         | SPI LCD GND                |
++---------------------------+----------------------------+
+
+
+By ----Shresth from project F.L.O.R.A----
+
+
+███████╗           ██╗                 ██████╗            ██████╗             █████╗ 
+██╔════╝           ██║                ██╔═══██╗           ██╔══██╗           ██╔══██╗
+█████╗             ██║                ██║   ██║           ██████╔╝           ███████║
+██╔══╝             ██║                ██║   ██║           ██╔══██╗           ██╔══██║
+██║         ██╗    ███████╗    ██╗    ╚██████╔╝    ██╗    ██║  ██║    ██╗    ██║  ██║
+╚═╝         ╚═╝    ╚══════╝    ╚═╝     ╚═════╝     ╚═╝    ╚═╝  ╚═╝    ╚═╝    ╚═╝  ╚═╝
+
+						V.2.1.9.143	Bloom with Us!!
+						
+						
+						
+						

@@ -1,0 +1,41 @@
++----------------------------+----------------------+------------------------+
+| Component                 | Connects To (Pi/ADC) | Pin Description        |
++----------------------------+----------------------+------------------------+
+| ADS1115 - VDD            | Pi 3.3V               | Power                  |
+| ADS1115 - GND            | Pi GND                | Ground                 |
+| ADS1115 - SDA            | Pi GPIO 2 (Pin 3)     | I2C Data               |
+| ADS1115 - SCL            | Pi GPIO 3 (Pin 5)     | I2C Clock              |
++----------------------------+---------------------|------------------------+
+| Moisture Sensor - VCC    | ADS1115 VDD           | Power                  |
+| Moisture Sensor - GND    | ADS1115 GND           | Ground                 |
+| Moisture Sensor - OUT    | ADS1115 A0            | Analog Data            |
++----------------------------+---------------------|------------------------+
+| LDR - VCC                | ADS1115 VDD           | Power                  |
+| LDR - GND                | ADS1115 GND           | Ground                 |
+| LDR - OUT                | ADS1115 A1            | Analog Data            |
++----------------------------+---------------------|------------------------+
+| LM35 - VCC               | ADS1115 VDD           | Power                  |
+| LM35 - GND               | ADS1115 GND           | Ground                 |
+| LM35 - OUT               | ADS1115 A2            | Analog Temp Data       |
++----------------------------+---------------------|------------------------+
+| LCD - VCC                | Pi 3.3V (Pin 1)       | Power                  |
+| LCD - GND                | Pi GND (Pin 6)        | Ground                 |
+| LCD - DIN                | Pi GPIO 10 (Pin 19)   | SPI MOSI               |
+| LCD - CLK                | Pi GPIO 11 (Pin 23)   | SPI Clock              |
+| LCD - CS                 | Pi GPIO 8 (Pin 24)    | SPI CE0                |
+| LCD - DC                 | Pi GPIO 25 (Pin 22)   | Data/Command           |
+| LCD - RST                | Pi GPIO 24 (Pin 18)   | Reset                  |
++----------------------------+----------------------+------------------------+
+
+By ----Shresth from project F.L.O.R.A----
+
+
+███████╗           ██╗                 ██████╗            ██████╗             █████╗ 
+██╔════╝           ██║                ██╔═══██╗           ██╔══██╗           ██╔══██╗
+█████╗             ██║                ██║   ██║           ██████╔╝           ███████║
+██╔══╝             ██║                ██║   ██║           ██╔══██╗           ██╔══██║
+██║         ██╗    ███████╗    ██╗    ╚██████╔╝    ██╗    ██║  ██║    ██╗    ██║  ██║
+╚═╝         ╚═╝    ╚══════╝    ╚═╝     ╚═════╝     ╚═╝    ╚═╝  ╚═╝    ╚═╝    ╚═╝  ╚═╝
+
+						V.2.1.9.143	Bloom with Us!!
+						
