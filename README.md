@@ -1,42 +1,49 @@
-# F.L.O.R.A-floraproject
- # 🌱 PlantBuddy F.L.O.R.A.
+# PlantBuddy F.L.O.R.A. 🌱
 
-**PlantBuddy F.L.O.R.A.** (Friendly Logical Organic Reactive Assistant) is a Raspberry Pi-based system designed to monitor plant health using real-time data from environmental sensors. It helps promote sustainable living and supports awareness around plant care, environmental data literacy, and responsible tech use.
+**Friendly Logical Organic Reactive Assistant**
 
----
+![Wiring Diagram](Wiring(new,%20PICTURE).png)
 
-## 🔌 Connection Overview
+**PlantBuddy F.L.O.R.A.** is a modular, open-source plant monitoring system that uses a Raspberry Pi and several sensors to help you keep track of your plant’s health and environmental conditions in real-time.
 
-The diagram below shows the FROM ➡️ TO mapping between components and the Raspberry Pi:
+## 🔧 Components Used
 
-![Connection Diagram](docs/plantbuddy_connections.png)
-
-### Components Included:
-- Raspberry Pi (any model with GPIO support)
-- ADS1115 (ADC for analog sensor input)
+- Raspberry Pi (Zero 2W / 3 / 4)
+- ADS1115 ADC Module
 - Soil Moisture Sensor
+- LM35 Temperature Sensor
 - LDR (Light Sensor)
-- LM35 (Temperature Sensor)
-- SPI LCD Display (for emotional feedback or live stats)
-
----
+- SPI LCD Display
 
 ## 🌍 Why It Matters
 
-PlantBuddy F.L.O.R.A. is built not just as a hobby project — but to contribute to broader **sustainability goals** (like the UN SDGs: Good Health, Climate Action, and Sustainable Communities). It encourages mindful interaction with nature and promotes responsible use of microcontroller tech in green spaces.
+This project contributes to global good by aligning with several UN **Sustainable Development Goals (SDGs)**:
+- **Goal 3:** Good Health and Well-being  
+- **Goal 11:** Sustainable Cities and Communities  
+- **Goal 13:** Climate Action  
 
----
+## 🚀 Features
 
-## ✅ Features
+- Real-time temperature, light, and moisture display
+- SPI LCD output for clear data visualization
+- Modular sensor wiring using ADS1115
+- Low power, compact footprint
+- Designed for education, ethical development, and green tech contributions
 
-- Clean FROM ➡️ TO wiring reference
-- Beginner-friendly & modular setup
-- SPI & I²C-based communication
-- Designed for low-power, ethical use
-- Open-source and fully customizable
+## 💡 Ideal For
 
----
+- Home gardens
+- School STEM projects
+- Environmental education
+- Tech-for-good initiatives
 
-## 🤝 Use It, Share It, Grow With It
+## 📁 Folder Structure
 
-This project is open for collaboration and adaptation. Whether you’re making a smart pot for your home or educating others on sustainable tech — you’re part of a greener, smarter future 🌱✨
+```bash
+PlantBuddy-FLORA/
+├── Wiring(new, PICTURE).png
+├── README.md
+├── moisture_reader.py
+├── temperature_display.py
+├── lcd_driver.py
+└── ...
